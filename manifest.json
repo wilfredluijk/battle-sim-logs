@@ -1,10 +1,41 @@
 {
-  "exported_at_utc": "2026-09-17T16:47:49.807642+00:00",
+  "exported_at_utc": "2026-09-17T16:49:44.787844+00:00",
   "source_directory": "/opt/battle-sim/replays",
   "selection": "Initial five latest replay files, followed by newer completed matches; all have terminal end records.",
   "raw_files_unchanged": true,
   "player_names_unchanged": true,
   "matches": [
+    {
+      "replay_id": "match_main_1789663683852151491_1_25",
+      "file": "matches/match_main_1789663683852151491_1_25.jsonl",
+      "bytes": 203753,
+      "sha256": "0902174b285f58e7cd68c6bbad502af2d98121cbae5ff39cc6247d8e7d904741",
+      "started_at_utc": "2026-09-17T16:48:03.852152+00:00",
+      "source_modified_at_utc": "2026-09-17T16:48:46.993765+00:00",
+      "format_version": 7,
+      "bot_count": 9,
+      "tick_hz": 10,
+      "final_tick": 432,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player03",
+      "player_names": [
+        "player03",
+        "player07",
+        "player09",
+        "player05",
+        "player02",
+        "player06",
+        "player04",
+        "player01",
+        "player08"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789663683852151491_1_25.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
     {
       "replay_id": "match_main_1789663572518039344_1_23",
       "file": "matches/match_main_1789663572518039344_1_23.jsonl",
