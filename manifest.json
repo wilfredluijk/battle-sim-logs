@@ -1,10 +1,131 @@
 {
-  "exported_at_utc": "2026-09-17T16:25:46.766936+00:00",
+  "exported_at_utc": "2026-09-17T16:38:36.498425+00:00",
   "source_directory": "/opt/battle-sim/replays",
-  "selection": "Five latest replay files by source modification time at inspection; all have terminal end records.",
+  "selection": "Initial five latest replay files, plus four newer completed matches; all have terminal end records.",
   "raw_files_unchanged": true,
   "player_names_unchanged": true,
   "matches": [
+    {
+      "replay_id": "match_main_1789662949600755973_1_18",
+      "file": "matches/match_main_1789662949600755973_1_18.jsonl",
+      "bytes": 162814,
+      "sha256": "9c26b8d9dbfdc2d341ec0897e1ad388710a8fcbd5f80d1e2c936dc9cb666b9d4",
+      "started_at_utc": "2026-09-17T16:35:49.600756+00:00",
+      "source_modified_at_utc": "2026-09-17T16:36:41.910320+00:00",
+      "format_version": 7,
+      "bot_count": 8,
+      "tick_hz": 10,
+      "final_tick": 523,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player03",
+      "player_names": [
+        "player04",
+        "player01",
+        "player05",
+        "player09",
+        "player02",
+        "player08",
+        "player03",
+        "player06"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789662949600755973_1_18.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789662876753529152_1_16",
+      "file": "matches/match_main_1789662876753529152_1_16.jsonl",
+      "bytes": 181569,
+      "sha256": "5bea3f343baf49deda57fef09556992ce1326cdd6fa221e861bc952082026d7e",
+      "started_at_utc": "2026-09-17T16:34:36.753529+00:00",
+      "source_modified_at_utc": "2026-09-17T16:35:25.905644+00:00",
+      "format_version": 7,
+      "bot_count": 8,
+      "tick_hz": 10,
+      "final_tick": 492,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player03",
+      "player_names": [
+        "player04",
+        "player01",
+        "player05",
+        "player06",
+        "player09",
+        "player02",
+        "player08",
+        "player03"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789662876753529152_1_16.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789662791924709686_1_14",
+      "file": "matches/match_main_1789662791924709686_1_14.jsonl",
+      "bytes": 221162,
+      "sha256": "4c0f1fe43eb1145e530b78b60235a9c176b6fb6245217b6ddab999f55012e773",
+      "started_at_utc": "2026-09-17T16:33:11.924710+00:00",
+      "source_modified_at_utc": "2026-09-17T16:34:13.748002+00:00",
+      "format_version": 7,
+      "bot_count": 8,
+      "tick_hz": 10,
+      "final_tick": 619,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player06",
+      "player_names": [
+        "player04",
+        "player01",
+        "player05",
+        "player07",
+        "player06",
+        "player09",
+        "player02",
+        "player08"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789662791924709686_1_14.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789662697187007138_1_12",
+      "file": "matches/match_main_1789662697187007138_1_12.jsonl",
+      "bytes": 223231,
+      "sha256": "9050c8b901a9369ef014b6c6bbfaf292217967381ffc1978f31d06f4c773c478",
+      "started_at_utc": "2026-09-17T16:31:37.187007+00:00",
+      "source_modified_at_utc": "2026-09-17T16:32:45.130214+00:00",
+      "format_version": 7,
+      "bot_count": 9,
+      "tick_hz": 10,
+      "final_tick": 680,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player01",
+      "player_names": [
+        "player04",
+        "player01",
+        "player05",
+        "player07",
+        "player06",
+        "player09",
+        "player10",
+        "player02",
+        "player08"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789662697187007138_1_12.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
     {
       "replay_id": "match_main_1789661956803650993_1_10",
       "file": "matches/match_main_1789661956803650993_1_10.jsonl",
@@ -148,5 +269,6 @@
         "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
       }
     }
-  ]
+  ],
+  "initial_exported_at_utc": "2026-09-17T16:25:46.766936+00:00"
 }

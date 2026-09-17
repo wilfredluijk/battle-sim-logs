@@ -1,11 +1,11 @@
 # battle-sim-logs
 
-Raw match replay logs copied from the hosted battle-sim VPS. This snapshot contains
-the five latest matches.
+Raw match replay logs copied from the hosted battle-sim VPS. This archive contains
+nine matches: the initial five and four newer matches.
 
-Exported at **2026-09-17T16:25:46.766936+00:00**. The selected logs all have terminal
-end records; an aborted match is included as recorded. This is a fixed snapshot,
-not a continuously updated log feed.
+Last updated at **2026-09-17T16:38:36.498425+00:00**. The selected logs all have terminal
+end records; an aborted match is included as recorded. The archive is updated manually.
+This export includes completed matches found at the time of inspection.
 
 ## Matches
 
@@ -13,6 +13,10 @@ Times below are Europe/Amsterdam (CEST, UTC+02:00), newest first.
 
 | Match start | Players | Final tick | Outcome | Winner | Raw replay | Build metadata |
 | --- | ---: | ---: | --- | --- | --- | --- |
+| 2026-09-17 18:35:49 | 8 | 523 | winner (last_survivor) | player03 | [JSONL](matches/match_main_1789662949600755973_1_18.jsonl) | [JSON](matches/match_main_1789662949600755973_1_18.build.json) |
+| 2026-09-17 18:34:36 | 8 | 492 | winner (last_survivor) | player03 | [JSONL](matches/match_main_1789662876753529152_1_16.jsonl) | [JSON](matches/match_main_1789662876753529152_1_16.build.json) |
+| 2026-09-17 18:33:11 | 8 | 619 | winner (last_survivor) | player06 | [JSONL](matches/match_main_1789662791924709686_1_14.jsonl) | [JSON](matches/match_main_1789662791924709686_1_14.build.json) |
+| 2026-09-17 18:31:37 | 9 | 680 | winner (last_survivor) | player01 | [JSONL](matches/match_main_1789662697187007138_1_12.jsonl) | [JSON](matches/match_main_1789662697187007138_1_12.build.json) |
 | 2026-09-17 18:19:16 | 7 | 342 | winner (last_survivor) | player03 | [JSONL](matches/match_main_1789661956803650993_1_10.jsonl) | [JSON](matches/match_main_1789661956803650993_1_10.build.json) |
 | 2026-09-17 18:12:48 | 6 | 501 | winner (last_survivor) | player01 | [JSONL](matches/match_main_1789661568083026030_1_8.jsonl) | [JSON](matches/match_main_1789661568083026030_1_8.build.json) |
 | 2026-09-17 18:11:33 | 6 | 247 | winner (last_survivor) | player05 | [JSONL](matches/match_main_1789661493797660899_1_6.jsonl) | [JSON](matches/match_main_1789661493797660899_1_6.build.json) |
@@ -24,7 +28,7 @@ Times below are Europe/Amsterdam (CEST, UTC+02:00), newest first.
 - `matches/*.jsonl`: the complete original server replay files, byte for byte.
 - `matches/*.build.json`: the matching original server build metadata.
 - [manifest.json](manifest.json): source timestamps, match outcomes, original player names, file sizes, and VPS SHA-256 hashes.
-- [SHA256SUMS](SHA256SUMS): checksums for all ten source files and the manifest.
+- [SHA256SUMS](SHA256SUMS): checksums for all eighteen source files and the manifest.
 
 Player names are **unsanitized and unchanged**. These source logs record numbered
 identities such as `player01`; those values are kept exactly as written by the
@@ -53,7 +57,7 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 The hashes of the raw files were calculated on the VPS and verified again after
-copying and staging. All five files parsed successfully and contained a header
+copying and staging. All nine replay files parsed successfully and contained a header
 and terminal end record.
 
 ## Related repositories
