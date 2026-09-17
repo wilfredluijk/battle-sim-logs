@@ -1,0 +1,152 @@
+{
+  "exported_at_utc": "2026-09-17T16:25:46.766936+00:00",
+  "source_directory": "/opt/battle-sim/replays",
+  "selection": "Five latest replay files by source modification time at inspection; all have terminal end records.",
+  "raw_files_unchanged": true,
+  "player_names_unchanged": true,
+  "matches": [
+    {
+      "replay_id": "match_main_1789661956803650993_1_10",
+      "file": "matches/match_main_1789661956803650993_1_10.jsonl",
+      "bytes": 117339,
+      "sha256": "bb7e042027ef6da9b8197fcb37c64b5f09feba6bc969439f8ad4b78c8bed06a9",
+      "started_at_utc": "2026-09-17T16:19:16.803651+00:00",
+      "source_modified_at_utc": "2026-09-17T16:19:50.941303+00:00",
+      "format_version": 7,
+      "bot_count": 7,
+      "tick_hz": 10,
+      "final_tick": 342,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player03",
+      "player_names": [
+        "player10",
+        "player06",
+        "player04",
+        "player03",
+        "player07",
+        "player09",
+        "player01"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789661956803650993_1_10.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789661568083026030_1_8",
+      "file": "matches/match_main_1789661568083026030_1_8.jsonl",
+      "bytes": 155448,
+      "sha256": "7238846be98c3762f6ed64db07b8f4e0fff67090dbfd78622babeb87a89a2f17",
+      "started_at_utc": "2026-09-17T16:12:48.083026+00:00",
+      "source_modified_at_utc": "2026-09-17T16:13:38.143956+00:00",
+      "format_version": 7,
+      "bot_count": 6,
+      "tick_hz": 10,
+      "final_tick": 501,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player01",
+      "player_names": [
+        "player10",
+        "player09",
+        "player01",
+        "player07",
+        "player05",
+        "player06"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789661568083026030_1_8.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789661493797660899_1_6",
+      "file": "matches/match_main_1789661493797660899_1_6.jsonl",
+      "bytes": 90565,
+      "sha256": "873a84f49abb650e939536a4b84063e6669b5926213281a6a06b20b737a948c1",
+      "started_at_utc": "2026-09-17T16:11:33.797661+00:00",
+      "source_modified_at_utc": "2026-09-17T16:11:58.421061+00:00",
+      "format_version": 7,
+      "bot_count": 6,
+      "tick_hz": 10,
+      "final_tick": 247,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player05",
+      "player_names": [
+        "player10",
+        "player09",
+        "player04",
+        "player01",
+        "player07",
+        "player05"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789661493797660899_1_6.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789660340953783703_1_1",
+      "file": "matches/match_main_1789660340953783703_1_1.jsonl",
+      "bytes": 342208,
+      "sha256": "4a38febac5bfabf22bde0c3275de9527905d535bd19284dab4af2588dd345c28",
+      "started_at_utc": "2026-09-17T15:52:20.953784+00:00",
+      "source_modified_at_utc": "2026-09-17T15:55:31.227287+00:00",
+      "format_version": 7,
+      "bot_count": 6,
+      "tick_hz": 10,
+      "final_tick": 1902,
+      "outcome": "aborted",
+      "end_reason": "operator_abort",
+      "winner_name": null,
+      "player_names": [
+        "player06",
+        "player01",
+        "player09",
+        "player03",
+        "player05",
+        "player10"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789660340953783703_1_1.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789578564136489528_1_6",
+      "file": "matches/match_main_1789578564136489528_1_6.jsonl",
+      "bytes": 1751603,
+      "sha256": "cfa436190084aa355a6924e7f8c91e0805aff4bb68768d15316343b9d8c9d3d7",
+      "started_at_utc": "2026-09-16T17:09:24.136489+00:00",
+      "source_modified_at_utc": "2026-09-16T17:14:24.059844+00:00",
+      "format_version": 7,
+      "bot_count": 8,
+      "tick_hz": 10,
+      "final_tick": 3000,
+      "outcome": "draw",
+      "end_reason": "timeout",
+      "winner_name": null,
+      "player_names": [
+        "player01",
+        "player02",
+        "player08",
+        "player04",
+        "player05",
+        "player07",
+        "player06",
+        "player03"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789578564136489528_1_6.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    }
+  ]
+}
