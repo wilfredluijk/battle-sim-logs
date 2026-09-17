@@ -1,9 +1,9 @@
 # battle-sim-logs
 
 Raw match replay logs copied from the hosted battle-sim VPS. This archive contains
-17 matches, including the five originally archived.
+19 matches, including the five originally archived.
 
-Last updated at **2026-09-17T17:27:38.482462+00:00**. The selected logs all have terminal
+Last updated at **2026-09-17T19:26:03.124710+00:00**. The selected logs all have terminal
 end records; aborted matches are included as recorded. The archive is updated manually.
 This export includes completed matches found at the time of inspection.
 
@@ -13,6 +13,8 @@ Times below are Europe/Amsterdam (CEST, UTC+02:00), newest first.
 
 | Match start | Players | Final tick | Outcome | Winner | Raw replay | Build metadata |
 | --- | ---: | ---: | --- | --- | --- | --- |
+| 2026-09-17 19:34:38 | 9 | 1489 | winner (last_survivor) | player10 | [JSONL](matches/match_main_1789666478321967607_1_45.jsonl) | [JSON](matches/match_main_1789666478321967607_1_45.build.json) |
+| 2026-09-17 19:28:26 | 8 | 1273 | winner (last_survivor) | player10 | [JSONL](matches/match_main_1789666106007032022_1_43.jsonl) | [JSON](matches/match_main_1789666106007032022_1_43.build.json) |
 | 2026-09-17 19:23:50 | 10 | 1832 | winner (last_survivor) | player06 | [JSONL](matches/match_main_1789665830493063282_1_41.jsonl) | [JSON](matches/match_main_1789665830493063282_1_41.build.json) |
 | 2026-09-17 19:22:19 | 10 | 397 | winner (last_survivor) | player06 | [JSONL](matches/match_main_1789665739892019720_1_38.jsonl) | [JSON](matches/match_main_1789665739892019720_1_38.build.json) |
 | 2026-09-17 19:11:46 | 9 | 2559 | aborted (operator_abort) | — | [JSONL](matches/match_main_1789665106962975463_1_36.jsonl) | [JSON](matches/match_main_1789665106962975463_1_36.build.json) |
@@ -36,7 +38,7 @@ Times below are Europe/Amsterdam (CEST, UTC+02:00), newest first.
 - `matches/*.jsonl`: the complete original server replay files, byte for byte.
 - `matches/*.build.json`: the matching original server build metadata.
 - [manifest.json](manifest.json): source timestamps, match outcomes, original player names, file sizes, and VPS SHA-256 hashes.
-- [SHA256SUMS](SHA256SUMS): checksums for all 34 source files and the manifest.
+- [SHA256SUMS](SHA256SUMS): checksums for all 38 source files and the manifest.
 
 Player names are **unsanitized and unchanged**. These source logs record numbered
 identities such as `player01`; those values are kept exactly as written by the
@@ -65,7 +67,7 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 The hashes of the raw files were calculated on the VPS and verified again after
-copying and staging. All 17 replay files parsed successfully and contained a header
+copying and staging. All 19 replay files parsed successfully and contained a header
 and terminal end record.
 
 ## Related repositories
