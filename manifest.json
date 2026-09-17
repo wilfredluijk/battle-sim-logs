@@ -1,10 +1,71 @@
 {
-  "exported_at_utc": "2026-09-17T17:01:06.199889+00:00",
+  "exported_at_utc": "2026-09-17T17:17:35.281226+00:00",
   "source_directory": "/opt/battle-sim/replays",
   "selection": "Initial five latest replay files, followed by newer completed matches; all have terminal end records.",
   "raw_files_unchanged": true,
   "player_names_unchanged": true,
   "matches": [
+    {
+      "replay_id": "match_main_1789665106962975463_1_36",
+      "file": "matches/match_main_1789665106962975463_1_36.jsonl",
+      "bytes": 883270,
+      "sha256": "eeec272420794e79397106cc57a8117d4693b180d8e58c84352b2326e15263c7",
+      "started_at_utc": "2026-09-17T17:11:46.962976+00:00",
+      "source_modified_at_utc": "2026-09-17T17:16:02.860271+00:00",
+      "format_version": 7,
+      "bot_count": 9,
+      "tick_hz": 10,
+      "final_tick": 2559,
+      "outcome": "aborted",
+      "end_reason": "operator_abort",
+      "winner_name": null,
+      "player_names": [
+        "player03",
+        "player05",
+        "player02",
+        "player07",
+        "player09",
+        "player06",
+        "player08",
+        "player01",
+        "player10"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789665106962975463_1_36.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
+    {
+      "replay_id": "match_main_1789664616671418448_1_34",
+      "file": "matches/match_main_1789664616671418448_1_34.jsonl",
+      "bytes": 283777,
+      "sha256": "1b210debf8e6be5851e7d1a69d00e74f9db49fc425ca9c03fc1bceb2c7e2055e",
+      "started_at_utc": "2026-09-17T17:03:36.671418+00:00",
+      "source_modified_at_utc": "2026-09-17T17:05:15.016532+00:00",
+      "format_version": 7,
+      "bot_count": 8,
+      "tick_hz": 10,
+      "final_tick": 984,
+      "outcome": "winner",
+      "end_reason": "last_survivor",
+      "winner_name": "player03",
+      "player_names": [
+        "player03",
+        "player08",
+        "player05",
+        "player01",
+        "player09",
+        "player02",
+        "player07",
+        "player06"
+      ],
+      "build_metadata": {
+        "file": "matches/match_main_1789664616671418448_1_34.build.json",
+        "bytes": 128,
+        "sha256": "3784c3fe059c562cafe73e31cf80d0603f0b6d5fc2f9d114e458865d259d30fa"
+      }
+    },
     {
       "replay_id": "match_main_1789664108585187451_1_32",
       "file": "matches/match_main_1789664108585187451_1_32.jsonl",
